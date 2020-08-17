@@ -1,0 +1,339 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+}
+html{scroll-behavior: smooth;}
+.wrapper{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.bang{
+	width: 200px;
+	height: 950px;
+	position: fixed;
+	float: left;
+	margin-top: 300px;
+	margin-left: 50px;
+}
+.bang ul{
+	list-style: none;
+}
+.bang ul li{
+	margin-top: 50px;
+}
+.bang ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	color:#000000;
+	font-size:40px;
+}
+.bang ul li a:hover{
+	color: #FF0004;
+}
+
+.bang ul li a:visited.bang ul li a:active{}
+.layout1{
+	width: 100%;
+	height: 100vh;
+	background-color: #A6A5A5;
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: #FFFFFF;
+}
+.toang img{
+	width:800px;
+	float: right;
+	margin-right: 10%;
+	margin-top: 120px;
+	border-radius: 50%;
+	position: relative;
+}
+.toang h2{
+	padding-left: 300px;
+	padding-top: 300px;
+	font-size: 50px;
+	color:#000000;
+}
+.toang h4{
+	padding-top: 50px;
+	padding-left: 300px;
+	font-size: 30px;
+	color:#000000;
+	
+}
+.the button{
+	width: 150px;
+	height: 50px;
+	margin-top: 500px;
+	margin-left: 300px;
+	background-color: #F1A71B;
+}
+.the a{
+	color: #000000;
+	text-decoration: none;
+	border-radius: 10%;
+}
+.the a:hover{
+	color: #FF0004;
+}
+.menu ul{
+	list-style: none;
+	padding-left: 300px;
+	padding-top: 15px;
+	margin-left: 200px;
+	
+}
+.menu ul li {
+	float: left;
+}
+.menu ul li a{
+	margin-left: 200px;
+	font-size: 20px;
+	text-decoration: none;
+	color:#000000;
+	position: relative;
+	font-size: 30px;
+}
+.menu ul li a:hover{
+	color: #FF0004;
+}
+.menu button{
+	width: 150px;
+	height: 30px;
+	margin-left: 200px;		
+	border-radius: 5%;
+}
+
+.layout2{
+	width: 100%;
+	height: 100vh;
+	
+}
+.trai img{
+	width: 600px;
+	border-radius: 50%;
+	margin-left:20%;
+	margin-top: 8%;
+	float: left;
+}
+.phai{
+	width: 500px;
+	height: 700px;
+	float: right;
+	margin-right: 20%;
+	margin-top: 10%;
+		
+}.phai h2{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+	font-size: 40px;
+}
+.phai button{
+	width: 25%;
+	height: 5%;
+	background-color: #F1A71B;
+	border-radius: 5%;
+}
+.phai a{
+	text-decoration: none;
+	color: #000000;
+}
+.phai h4{
+	font-size: 30px;
+}
+.gioithieu{
+	padding-top: 150px;
+	text-align:left;
+	padding-left: 40%;
+}
+
+
+.layout3{
+	width: 100%;
+	height: 100vh;	
+	background-color: #A6A5A5;
+	
+}
+.tin{
+        width: 400px;
+	padding-top:150px;
+        font-family: 'Roboto', sans-serif;
+	margin:0 auto;
+    }
+.layout3 h4{
+	font-size: 40px;
+	padding-top:150px;
+	text-align: center;
+	color:#000000;
+	
+}
+.skill {
+	
+        margin-bottom: 92px;
+        position: relative;
+			overflow-x:hidden;
+			
+    }
+    .skill > p {
+        font-size: 18px;
+        font-weight: 700;
+        color:#030303;
+        margin: 0;
+		
+    }
+    .skill:before{
+        width: 100%;
+        height: 5px;
+        content: "";
+        display: block;
+        position: absolute;
+        background: #959595;
+        bottom: 0;
+    }
+    .skill-bar {
+        width: 100%;
+        height: 5px;
+        background:#f4392f;
+        display: block;
+        position: relative;
+    }
+
+    /* SKILL 1 */
+    .skill1{
+        width: 95%;
+			
+    }
+    .skill-bar span{
+        position: absolute;
+        border-top: 5px solid #f4392f;
+        top: -30px;
+        padding: 0;
+        font-size: 18px;
+        padding: 3px 0;
+        font-weight: 500;
+    }
+    .skill-bar {
+        position: relative;
+			
+    }
+
+    /* SKILL 2 */
+    .skill2{
+        width: 75%;
+    }
+
+    .skill2 .skill-count2 {
+        right: 0;
+    }
+    /* SKILL 3 */
+    .skill3{
+        width: 80%;
+    }
+    .skill3 .skill-count3 {
+        right: 0;
+    }
+
+    /* SKILL 4 */
+    .skill4{
+        width: 75%
+    }
+
+    .skill4 .skill-count4 {
+        right: 0;
+    }
+    /* SKILL 5 */
+    .skill5{
+        width: 80%;
+    }
+.icon{
+	height: 900px;
+	position: relative;
+	float: left;
+	margin-top:83px;
+	margin-left: 20%;
+	
+}
+.icon img{
+	margin-left: 500px;
+	margin-top: 65px;
+	
+	
+}
+
+.layout4{
+	width: 100%;
+	height: 100vh;
+	
+}
+
+.nhan{
+	width: 100%;
+	height: 100vh;		
+}
+.nhan h4{
+	padding-left: 45%;
+	padding-top: 10%;
+	font-size: 30px;
+	color: #000000;
+}
+
+.arrow{
+	height: 40px;
+	position: fixed;
+	margin-left: 90%;
+	top:90%
+}
+.arrow a:hover{
+	color: #FF0004;
+}
+#form-main{
+	margin-left: 900px;
+	margin-top: 150px;
+}
+.feedback-input{
+	width: 	400px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.quan {
+	width: 550px;
+	height: 350px;
+}
+
+.tung{
+	width: 100%;
+	font-size: 20px;
+	color:#FFFFFF;
+	background-color: #000000;
+}
+.tung h4{
+	text-align: center;
+}
+.trang1{
+	border-bottom: medium;
+	float: left;
+	position: relative;
+	padding-top:26%;
+	float: right;
+}
+.trang1 a{
+	text-decoration: none;
+	color:#000000;
+	float: left;
+}
+.loai{
+	width: 100vw;
+	margin-left: 570px;	
+	float: left;
+}
+.loai img{
+	float: left;
+	margin-left: 200px;	
+}
